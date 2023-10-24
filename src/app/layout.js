@@ -1,7 +1,9 @@
 import { Inter } from 'next/font/google'
-import './globals.css'
+import './style/globals.css'
+import Navbar from './components/Navbar'
 
-const inter = Inter({ subsets: ['latin'] })
+// Notez que la déclaration de la police Inter ne devrait pas être utilisée ici.
+// Vous pouvez la déclarer dans votre fichier CSS global.
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +13,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+      </head>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }
