@@ -15,7 +15,8 @@ export default function Footer(){
                 <Image
                 src={Logo}
                 width={55}
-                height={85}/>
+                height={85}
+                alt="DemezVous Logo"/>
               </a>
               </div>
           </div>

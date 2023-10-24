@@ -26,7 +26,7 @@ export default function Navbar(){
             src={Logo}
             width={255}
             height={125}
-              />
+            alt="DemezVouz Logo"  />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">De chez vous à VOUS!</span>
         </a>
         <div className="flex items-center">

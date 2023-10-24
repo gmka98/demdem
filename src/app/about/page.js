@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About1 = () => {
   return (
@@ -10,14 +11,14 @@ const About1 = () => {
               <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
-                    <img
+                    <Image
                       src="https://i.ibb.co/gFb3ns6/image-1.jpg"
                       alt=""
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
-                    <img
+                    <Image
                       src="https://i.ibb.co/rfHFq15/image-2.jpg"
                       alt=""
                       className="w-full rounded-2xl"
@@ -26,7 +27,7 @@ const About1 = () => {
                 </div>
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
-                    <img
+                    <Image
                       src="https://i.ibb.co/9y7nYCD/image-3.jpg"
                       alt=""
                       className="w-full rounded-2xl"
@@ -614,7 +615,7 @@ const About1 = () => {
                   Make your customers happy by giving services.
                 </h2>
                 <p className="mb-8 text-base text-body-color">
-                Chez DemezVous, nous sommes fiers d'être votre partenaire de confiance pour tous vos besoins de déménagement en Belgique. Notre entreprise a été fondée avec la vision de rendre le déménagement plus facile, plus rapide et plus fiable pour nos clients. Nous comprenons que déménager peut être stressant, c'est pourquoi nous nous engageons à vous offrir des solutions de déménagement sur mesure qui correspondent à vos besoins spécifiques.
+                Chez DemezVous&lsquo; nous sommes fiers d&apos; être votre partenaire de confiance pour tous vos besoins de déménagement en Belgique. Notre entreprise a été fondée avec la vision de rendre le déménagement plus facile&lsquo; plus rapide et plus fiable pour nos clients. Nous comprenons que déménager peut être stressant&lsquo; c&apos;est pourquoi nous nous engageons à vous offrir des solutions de déménagement sur mesure qui correspondent à vos besoins spécifiques.
                 </p>
                 <a
                   href="/#"
