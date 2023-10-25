@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import People from "../../../public/images/movingpeople.jpg"
 
-export default function About() {
+export default function About1() {
     return (
         <>
             <section className="bg-white dark:bg-gray-900">

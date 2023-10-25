@@ -18,17 +18,24 @@ export default function Footer(){
                 height={85}
                 alt="DemezVous Logo"/>
               </a>
+
               </div>
+
           </div>
+          <span className="text-white"></span>
+
           <div className=" grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
                   <h2 className="mb-6 text-sm font-semibold text-red-500 uppercase ">Liens Rapides</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="https://flowbite.com/" className="hover:underline text-white">Flowbite</a>
+                          <a href="/about" className="hover:underline text-white">A propos</a>
                       </li>
-                      <li>
-                          <a href="https://tailwindcss.com/" className="hover:underline text-white">Tailwind CSS</a>
+                      <li className="mb-4">
+                          <a href="contact" className="hover:underline text-white">Contactez-nous</a>
+                      </li>
+                      <li className="mb-4">
+                          <a href="/FAQ" className="hover:underline text-white">FAQ</a>
                       </li>
                   </ul>
               </div>
@@ -36,10 +43,10 @@ export default function Footer(){
                   <h2 className="mb-6 text-sm font-semibold text-red-500 uppercase ">Suivez-Nous</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="https://github.com/themesberg/flowbite" className="hover:underline text-white">Github</a>
+                          <a href="https://github.com/gmka98" className="hover:underline text-white">Github</a>
                       </li>
                       <li>
-                          <a href="https://discord.gg/4eeurUVvTy" className="hover:underline text-white">Discord</a>
+                          <a href="/" className="hover:underline text-white">Discord</a>
                       </li>
                   </ul>
               </div>
