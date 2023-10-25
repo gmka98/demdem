@@ -51,8 +51,9 @@ export default function Testimonials() {
                             <div className="flex items-center mt-8 -mx-2">
                                 <Image
                                     className="object-cover mx-2 rounded-full w-14 h-14 ring-4 ring-gray-300 dark:ring-gray-700"
-                                    src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                                    src=""
                                     alt="Portrait of Robert"
+                                    
                                 />
 
                                 <div className="mx-2">
@@ -72,7 +73,7 @@ export default function Testimonials() {
                             <div className="flex items-center mt-8 -mx-2">
                                 <Image
                                     className="object-cover mx-2 rounded-full w-14 h-14 ring-4 ring-blue-200"
-                                    src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                                    src=""
                                     alt="Portrait of Jeny Doe"
                                 />
                                 <div className="mx-2">
@@ -92,7 +93,7 @@ export default function Testimonials() {
                             <div className="flex items-center mt-8 -mx-2">
                                 <Image
                                     className="object-cover mx-2 rounded-full w-14 h-14 ring-4 ring-gray-300 dark:ring-gray-700"
-                                    src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                                    src=""
                                     alt="Portrait of Ema Watson"
                                 />
 

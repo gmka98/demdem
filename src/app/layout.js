@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google'
 import './style/globals.css'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 // Notez que la déclaration de la police Inter ne devrait pas être utilisée ici.
 // Vous pouvez la déclarer dans votre fichier CSS global.
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   )

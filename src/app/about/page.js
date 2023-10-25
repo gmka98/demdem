@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const About1 = () => {
+const About = () => {
   return (
     <>
       <section className="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">

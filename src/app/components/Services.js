@@ -6,18 +6,18 @@ const Services = () => {
       <div className="container">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">
-            <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
-              <span className="block mb-2 text-lg font-semibold text-primary">
-                Our Services
-              </span>
-              <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
-                What We Offer
-              </h2>
-              <p className="text-base text-body-color">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form
-              </p>
-            </div>
+          <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
+    <span className="block mb-2 text-lg font-semibold text-primary">
+        Nos Services
+    </span>
+    <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
+        Ce que Nous Proposons
+    </h2>
+    <p className="text-base text-body-color">
+        Découvrez les nombreux services que nous offrons pour rendre votre déménagement en Belgique simple et sans stress. Chez nous, la satisfaction du client est au cœur de tout ce que nous faisons.
+    </p>
+</div>
+
           </div>
         </div>
         <div className="flex flex-wrap -mx-4">

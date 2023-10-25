@@ -7,7 +7,7 @@ export default function Navbar(){
         <>
         
      
-<nav class="bg-black dark:bg-gray-900  w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+<nav class="fixed w-full bg-black dark:bg-gray-900  w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
  
   <div class="flex md:order-2 ml-auto">
@@ -20,8 +20,8 @@ export default function Navbar(){
 
 
         
-<div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-        <a href="/" className="flex">
+<div className="mt-9 flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+        <a href="/" className="flex ">
         <Image
             src={Logo}
             width={255}
@@ -30,8 +30,7 @@ export default function Navbar(){
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">De chez vous à VOUS!</span>
         </a>
         <div className="flex items-center">
-            <a href="tel:5541251234" className="mr-6 text-sm  text-gray-500 dark:text-white hover:underline">(555) 412-1234</a>
-            <a href="#" className="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Login</a>
+        <a href="tel:+32 2 123 45 67" className="mr-6 text-xl text-black font-extrabold dark:text-white hover:underline border-solid border-2 rounded-tl-lg rounded-tr-lg rounded-bl-lg">+32 2 123 45 67</a>
         </div>
     </div>
 <nav className="bg-black border-gray-200 dark:bg-gray-900 dark:border-gray-700">
@@ -47,7 +46,7 @@ export default function Navbar(){
     <div className="hidden w-full md:block md:w-auto" id="navbar-multi-level">
       <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border md:flex-row md:space-x-8 md:mt-0 md:border-0 text-white">
         <li>
-          <a href="#" className="block py-2 pl-3 pr-4  md:p-0 " aria-current="page">Home</a>
+          <a href="/" className="block py-2 pl-3 pr-4  md:p-0 " aria-current="page">Accueil</a>
         </li>
         
         <li>
@@ -92,10 +91,10 @@ export default function Navbar(){
         </li>
         
         <li>
-          <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:text-red-500  md:border-0 md:hover:text-red-500 md:p-0 ">Pricing</a>
+          <a href="prix" className="block py-2 pl-3 pr-4 text-white rounded hover:text-red-500  md:border-0 md:hover:text-red-500 md:p-0 ">Prix</a>
         </li>
         <li>
-          <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:text-red-500  md:border-0 md:hover:text-red-500 md:p-0 ">Contact</a>
+          <a href="contact" className="block py-2 pl-3 pr-4 text-white rounded hover:text-red-500  md:border-0 md:hover:text-red-500 md:p-0 ">Contact</a>
         </li>
       </ul>
     </div>

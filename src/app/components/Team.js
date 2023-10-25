@@ -1,5 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import Chef from "../../../public/images/Team/dec8688655c6f4fa6c076654d546ee53.jpg";
+import Client from "../../../public/images/Team/dd48b7bcf837fe44b16d3a982d4c171b.jpg";
+import Demenageur from "../../../public/images/Team/16a56474f0b32903b2b9be8eb37e8c89.jpg";
+import Web from "../../../public/images/Team/027e3a487475ab8350ea6d190c5400f4.jpg";
 
 const Team = () => {
   return (
@@ -9,14 +13,12 @@ const Team = () => {
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
               <span className="block mb-2 text-lg font-semibold text-primary">
-                Our Team
+                Notre Team
               </span>
               <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
-                Our Awesome Team
-              </h2>
+              Notre Équipe Exceptionnelle              </h2>
               <p className="text-base text-body-color">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+              Notre équipe dévouée est composée de professionnels passionnés du déménagement en Belgique. Nous sommes là pour vous offrir un service de déménagement de qualité et sans souci.
               </p>
             </div>
           </div>
@@ -24,23 +26,23 @@ const Team = () => {
         <div className="flex flex-wrap justify-center -mx-4">
           <TeamCard
             name="Coriss Ambady"
-            profession="Web Developer"
-            imageSrc="https://i.ibb.co/T1J9LD4/image-03-2.jpg"
+            profession="Gestionnaire de Projet"
+            imageSrc={Chef}
           />
           <TeamCard
-            name="Coriss Ambady"
-            profession="Web Developer"
-            imageSrc="https://i.ibb.co/8P6cvVy/image-01-1.jpg"
+            name="Joel Okemba"
+            profession="Déménageurs"
+            imageSrc={Demenageur}
           />
           <TeamCard
-            name="Coriss Ambady"
-            profession="Web Developer"
-            imageSrc="https://i.ibb.co/30tGtjP/image-04.jpg"
+            name="Hubert Hirwa"
+            profession="Service Client"
+            imageSrc={Client}
           />
           <TeamCard
-            name="Coriss Ambady"
-            profession="Web Developer"
-            imageSrc="https://i.ibb.co/yVVT0Dp/image-02-2.jpg"
+            name="Gael Mukendi Kabongo"
+            profession="Spécialiste en Marketing et Site Web"
+            imageSrc={Web}
           />
         </div>
       </div>
