@@ -1,6 +1,9 @@
 import React from "react";
 import Logo from "../../../public/images/demezvous.png"
 import Image from "next/image";
+import Link from "next/link";
+
+
 
 export default function Navbar(){
     return(
@@ -21,16 +24,16 @@ export default function Navbar(){
 
         
 <div className="mt-9 flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-        <a href="/" className="flex ">
+        <Link href="/" className="flex ">
         <Image
             src={Logo}
             width={255}
             height={125}
             alt="DemezVouz Logo"  />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">De chez vous à VOUS!</span>
-        </a>
+        </Link>
         <div className="flex items-center">
-        <a href="tel:+32 2 123 45 67" className="mr-6 text-xl text-black font-extrabold dark:text-white hover:underline border-solid border-2 rounded-tl-lg rounded-tr-lg rounded-bl-lg">+32 2 123 45 67</a>
+        <Link href="tel:+32 2 123 45 67" className="mr-6 text-xl text-black font-extrabold dark:text-white hover:underline border-solid border-2 rounded-tl-lg rounded-tr-lg rounded-bl-lg">+32 2 123 45 67</Link>
         </div>
     </div>
 <nav className="bg-black border-gray-200 dark:bg-gray-900 dark:border-gray-700">
@@ -46,7 +49,7 @@ export default function Navbar(){
     <div className="hidden w-full md:block md:w-auto" id="navbar-multi-level">
       <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border md:flex-row md:space-x-8 md:mt-0 md:border-0 text-white">
         <li>
-          <a href="/" className="block py-2 pl-3 pr-4  md:p-0 " aria-current="page">Accueil</a>
+          <Link href="/" className="block py-2 pl-3 pr-4  md:p-0 " aria-current="page">Accueil</Link>
         </li>
         
         <li>
@@ -57,7 +60,7 @@ export default function Navbar(){
             <div id="dropdownNavbar" className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
                 <ul className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                   <li>
-                    <a href="#" className="block px-4 py-2 hover:text-red-500 text-white">Dashboard</a>
+                    <Link href="#" className="block px-4 py-2 hover:text-red-500 text-white">Dashboard</Link>
                   </li>
                   <li aria-labelledby="dropdownNavbarLink">
                     <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown" data-dropdown-placement="right-start" type="button" className="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dropdown<svg className="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -66,35 +69,35 @@ export default function Navbar(){
                     <div id="doubleDropdown" className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
                         <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton">
                           <li>
-                            <a href="#" className="block px-4 py-2 hover:text-red-500 text-white">Overview</a>
+                            <Link href="#" className="block px-4 py-2 hover:text-red-500 text-white">Overview</Link>
                           </li>
                           <li>
-                            <a href="#" className="block px-4 py-2 hover:text-red-500 text-white">My downloads</a>
+                            <Link href="#" className="block px-4 py-2 hover:text-red-500 text-white">My downloads</Link>
                           </li>
                           <li>
-                            <a href="#" className="block px-4 py-2 hover:text-red-500 text-white">Billing</a>
+                            <Link href="#" className="block px-4 py-2 hover:text-red-500 text-white">Billing</Link>
                           </li>
                           <li>
-                            <a href="#" className="block px-4 py-2 hover:text-red-500 text-white">Rewards</a>
+                            <Link href="#" className="block px-4 py-2 hover:text-red-500 text-white">Rewards</Link>
                           </li>
                         </ul>
                     </div>
                   </li>
                   <li>
-                    <a href="#" className="block px-4 py-2 hover:text-red-500 text-white">Earnings</a>
+                    <Link href="#" className="block px-4 py-2 hover:text-red-500 text-white">Earnings</Link>
                   </li>
                 </ul>
                 <div className="py-1">
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign out</a>
+                  <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign out</Link>
                 </div>
             </div>
         </li>
         
         <li>
-          <a href="prix" className="block py-2 pl-3 pr-4 text-white rounded hover:text-red-500  md:border-0 md:hover:text-red-500 md:p-0 ">Prix</a>
+          <Link href="prix" className="block py-2 pl-3 pr-4 text-white rounded hover:text-red-500  md:border-0 md:hover:text-red-500 md:p-0 ">Prix</Link>
         </li>
         <li>
-          <a href="contact" className="block py-2 pl-3 pr-4 text-white rounded hover:text-red-500  md:border-0 md:hover:text-red-500 md:p-0 ">Contact</a>
+          <Link href="contact" className="block py-2 pl-3 pr-4 text-white rounded hover:text-red-500  md:border-0 md:hover:text-red-500 md:p-0 ">Contact</Link>
         </li>
       </ul>
     </div>

@@ -30,7 +30,7 @@ const Team = () => {
             imageSrc={Chef}
           />
           <TeamCard
-            name="Joel Okemba"
+            name="Joel GOAT"
             profession="Déménageurs"
             imageSrc={Demenageur}
           />
